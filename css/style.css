@@ -147,6 +147,11 @@ footer {
 
 .publication .authors .me {
   text-decoration: underline;
+  color: rgba(88, 88, 88, 1);
+}
+
+.publication .authors .co {
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
