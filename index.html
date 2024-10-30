@@ -39,6 +39,9 @@
               <a class="sidebar-icon" href="https://liby.cubes.studio/index.html" target="_blank" data-bs-toggle="tooltip" data-bs-title="Personal Website">
                 <i class="fa fa-user" aria-hidden="true" style="font-size: 24px"></i>
               </a>
+              <a class="sidebar-icon" href="https://www.linkedin.com/in/liby99/" target="_blank" data-bs-toggle="tooltip" data-bs-title="LinkedIn">
+                <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 24px"></i>
+              </a>
               <a class="sidebar-icon" href="https://scholar.google.com/citations?user=tROyBasAAAAJ&hl=en" target="_blank" data-bs-toggle="tooltip" data-bs-title="Google Scholar">
                 <!-- <img src="img/vendor/google-scholar.svg" width="28px" height="28px" /> -->
                 <svg width="28" height="28" viewBox="0 0 500 500" style="margin-top: -5px">
@@ -47,9 +50,6 @@
                   </g>
                 </svg>
               </a>
-            </div>
-            <div class="sidebar-item">
-              <i class="fa fa-graduation-cap icon"></i> PhD student
             </div>
             <div class="sidebar-item">
               <span class="icon">
@@ -61,121 +61,473 @@
               <i class="fa fa-university icon"></i> <a href="https://www.cis.upenn.edu" target="_blank">Computer and Information Science</a>
             </div>
             <div class="sidebar-item">
-              <i class="fa fa-id-card icon" aria-hidden="true"></i> <a href="res/cv/cv-09-16-2024.pdf" target="_blank">Curriculum Vitae</a>
+              <i class="fa fa-graduation-cap icon"></i> <a href="res/cv/cv-09-16-2024.pdf" target="_blank">Curriculum Vitae</a>
+            </div>
+            <div class="sidebar-item">
+              Education:
+              <ul>
+                <li>Ph.D. Computer and Information Science - UPenn, 2019-Now</li>
+                <li>B.S. Mathematics and B.S. Computer Science - UCSD, 2015-2019</li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="main col-sm-9 col-12">
-          <div class="section">
+          <div id="bio" class="section">
             <!-- <div class="section-header">
               <h2>Research</h2>
             </div> -->
             <p>
               Ziyang Li is a final year PhD student from the <a target="_blank" href="https://upenn.edu">University of Pennsylvania</a>, advised by <a target="_blank" href="https://www.cis.upenn.edu/~mhnaik/">Prof. Mayur Naik</a>.
               He works in the intersection of Programming Languages (PL) and Machine Learning (ML), specifically in the area of Neurosymbolic Programming, Program Analysis, and Security.
-              Recently, he is focusing on building and extending the <a href="https://scallop-lang.github.io/">Scallop</a>, a neurosymbolic programming language, that aims to bridge the gap between neural networks and symbolic reasoning components.
+              Recently, he is focusing on building and extending the <a target="_blank" href="https://scallop-lang.github.io/">Scallop</a>, a neurosymbolic programming language, that aims to bridge the gap between neural networks and symbolic reasoning components.
               The language has led to diverse applications in the domain of natural language processing (NLP), computer vision (CV), security, health, and bioinformatics.
               He is awarded the <a target="_blank" href="https://blog.seas.upenn.edu/amazon-provides-gift-to-10-penn-engineering-phd-students-for-work-on-trustworthy-ai/">AWS Fellowship</a> for conducting research on trustworthy AI.
             </p>
             <p>
-              Before his PhD, he obtained his dual Bachelors degree on Computer Science and Mathematics from the <a target="_blank" href="https://ucsd.edu">UCSD</a>, where he was advised by <a target="_blank" href="https://cseweb.ucsd.edu//~ravir/">Prof. Ravi Ramamoorthi</a> on topics within Computer Graphics (CG).
+              Before his PhD, he obtained his dual B.S. degree on Computer Science and Mathematics from the <a target="_blank" href="https://ucsd.edu">UCSD</a>, where he was advised by <a target="_blank" href="https://cseweb.ucsd.edu//~ravir/">Prof. Ravi Ramamoorthi</a> on topics within Computer Graphics (CG).
               He also spent a year working in <a target="_blank" href="https://designlab.ucsd.edu">UCSD Design Lab</a> on HCI with <a target="_blank" href="https://d.ucsd.edu/srk/">Prof. Scott Klemmer</a>.
               In his spare time, he is a Piano enthusiast and the keyboardist of the band, <a target="_blank" href="https://www.instagram.com/the_protagonists_band/">The Protagonists</a>, where he plays Jazz, Fusion, and Pop music.
+              His favorite programming language is <a target="_blank" href="https://rust-lang.org">Rust</a>.
             </p>
           </div>
-          <div class="section">
+          <div id="news" class="section">
             <div class="section-header">
               <h2>Recent News</h2>
             </div>
             <ul>
               <li class="news-item">
-                <span class="red">I will be on the academic job market for the 2024-25 cycle!</span>
-              </li>
-              <li class="news-item">
-                <span class="date">Oct 11, 2024</span>
+                <strong style="color: red">I will be on the academic job market for the 2024-25 cycle!</strong>
               </li>
             </ul>
           </div>
-          <div class="section">
+          <div id="publications" class="section">
             <div class="section-header">
               <h2>Publications</h2>
             </div>
-            <ul>
-
-            </ul>
+            <div class="publication-section">
+              <h6>Core Scallop Language and its Applications:</h6>
+              <ul class="publications list-group">
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Neurosymbolic Programming with Scallop: Principles and Practice</strong>
+                    <span class="conference">Foundations and Trends in Programming Languages 2024 (To Appear)</span>
+                  </div>
+                  <div class="authors">
+                    <span class="me">Ziyang Li</span>
+                    <span>Jiani Huang</span>
+                    <span>Jason Liu</span>
+                    <span>Mayur Naik</span>
+                  </div>
+                  <div>
+                    <strong>Invited Monograph</strong>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="res/papers/scallop-principles-practice.pdf">Preprint</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">LASER: A Neuro-Symbolic Framework for Learning Spatial-Temporal Scene Graphs with Weak Supervision</strong>
+                    <span class="conference">Preprint</span>
+                  </div>
+                  <div class="authors">
+                    <span>Jiani Huang</span>
+                    <span class="me">Ziyang Li</span>
+                    <span>Mayur Naik</span>
+                    <span>Ser-Nam Lim</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/abs/2304.07647">ArXiv</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Relational Programming with Foundation Models</strong>
+                    <span class="conference">AAAI 2024</span>
+                  </div>
+                  <div class="authors">
+                    <span class="me">Ziyang Li</span>
+                    <span>Jiani Huang</span>
+                    <span>Jason Liu</span>
+                    <span>Felix Zhu</span>
+                    <span>Eric Zhao</span>
+                    <span>William Dodds</span>
+                    <span>Neelay Velingker</span>
+                    <span>Rajeev Alur</span>
+                    <span>Mayur Naik</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.cis.upenn.edu/~jianih/res/publications/Relational_Programming_with_Foundation_Models/scallop_aaai24.pdf">Paper</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://github.com/scallop-lang/scallop/tree/master/etc/scallopy-plugins">Plugin Library</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Improved Logical Reasoning of Language Models via Differentiable Symbolic Programming</strong>
+                    <span class="conference">ACL Findings 2023</span>
+                  </div>
+                  <div class="authors">
+                    <span>Jiani Huang*</span>
+                    <span>Hanlin Zhang*</span>
+                    <span class="me">Ziyang Li</span>
+                    <span>Mayur Naik</span>
+                    <span>Eric Xing</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/abs/2305.03742">ArXiv</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Scallop, A Language for Neurosymbolic Programming</strong>
+                    <span class="conference">PLDI 2023</span>
+                  </div>
+                  <div class="authors">
+                    <span class="me">Ziyang Li</span>
+                    <span>Jiani Huang</span>
+                    <span>Mayur Naik</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/abs/2304.04812">ArXiv</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://dl.acm.org/doi/10.1145/3591280">Paper</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://zenodo.org/records/7804200">Zenodo</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://github.com/scallop-lang/scallop">Github</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Scallop: From Probabilistic Deductive Databases to Scalable Differentiable Reasoning</strong>
+                    <span class="conference">NeurIPS 2021</span>
+                  </div>
+                  <div class="authors">
+                    <span>Jiani Huang*</span>
+                    <span class="me">Ziyang Li*</span>
+                    <span>Binghong Chen</span>
+                    <span>Karan Samel</span>
+                    <span>Mayur Naik</span>
+                    <span>Le Song</span>
+                    <span>Xujie Si</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="res/papers/scallop-neurips21.pdf">Paper</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://github.com/scallop-lang/scallop-old">Code</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="publication-section">
+              <h6>Security and Program Analysis:</h6>
+              <ul class="publications list-group">
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">LLM-Assisted Static Analysis for Detecting Security Vulnerabilities</strong>
+                    <span class="conference">Preprint</span>
+                  </div>
+                  <div class="authors">
+                    <span class="me">Ziyang Li</span>
+                    <span>Saikat Dutta</span>
+                    <span>Mayur Naik</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/abs/2405.17238">ArXiv</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://github.com/liby99/cwe-bench-java">Dataset</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities</strong>
+                    <span class="conference">Preprint</span>
+                  </div>
+                  <div class="authors">
+                    <span>Avishree Khare</span>
+                    <span>Saikat Dutta</span>
+                    <span class="me">Ziyang Li</span>
+                    <span>Alaia Solko-Breslin</span>
+                    <span>Rajeev Alur</span>
+                    <span>Mayur Naik</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/abs/2311.16169">ArXiv</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">TYGR: Type Inference on Stripped Binaries using Graph Neural Networks</strong>
+                    <span class="conference">USENIX Security 2024</span>
+                  </div>
+                  <div class="authors">
+                    <span class="me">Ziyang Li*</span>
+                    <span>Chang Zhu*</span>
+                    <span>Anton Xue</span>
+                    <span>Ati Priya Bajaj</span>
+                    <span>William Gibbs</span>
+                    <span>Yibo Liu</span>
+                    <span>Hanjun Dai</span>
+                    <span>Mayur Naik</span>
+                    <span>Rajeev Alur</span>
+                    <span>Tiffany Bao</span>
+                    <span>Adam Doupé</span>
+                    <span>Yan Shoshitaishvili</span>
+                    <span>Ruoyu Wang</span>
+                    <span>Aravind Machiry</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.cis.upenn.edu/~alur/Usenix-Security24.pdf">Paper</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Arbitrar: User Guided API Misuse Detection</strong>
+                    <span class="conference">IEEE S&amp;P 2021</span>
+                  </div>
+                  <div class="authors">
+                    <span class="me">Ziyang Li</span>
+                    <span>Aravind Machiry</span>
+                    <span>Binghong Chen</span>
+                    <span>Ke Wang</span>
+                    <span>Mayur Naik</span>
+                    <span>Le Song</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="res/papers/arbitrar-sp21.pdf">Paper</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://github.com/petablox/arbitrar">Code</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.youtube.com/watch?v=pMOXs52w6tw">Talk</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Hoppity: Learning Graph Transformation to Detect and Fix Bugs in Programs</strong>
+                    <span class="conference">ICLR 2020</span>
+                  </div>
+                  <div class="authors">
+                    <span>Elizabeth Dinella</span>
+                    <span>Hanjun Dai</span>
+                    <span class="me">Ziyang Li</span>
+                    <span>Mayur Naik</span>
+                    <span>Le Song</span>
+                    <span>Ke Wang</span>
+                  </div>
+                  <div>
+                    <strong>🏆 Spotlight</strong>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.cis.upenn.edu/~mhnaik/papers/iclr20.pdf">Paper</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://github.com/AI-nstein/hoppity">Code</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="publication-section">
+              <h6>Health and Bioinformatics:</h6>
+              <ul class="publications list-group">
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Neurosymbolic RNA Secondary Structure Prediction</strong>
+                    <span class="conference">Preprint</span>
+                  </div>
+                  <div class="authors">
+                    <span class="me">Ziyang Li*</span>
+                    <span>Shu Yang*</span>
+                    <span>Mayur Naik</span>
+                    <span>Li Shen</span>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Crowd-sourced machine learning prediction of Long COVID using data from the National COVID Cohort Collaborative</strong>
+                    <span class="conference">eBioMedicine 2024</span>
+                  </div>
+                  <div class="authors">
+                    <span>Timothy Bergquist et al.</span>
+                    <span>...</span>
+                    <span>Neelay Velingker</span>
+                    <span class="me">Ziyang Li</span>
+                    <span>Yinjun Wu</span>
+                    <span>Jiani Huang</span>
+                    <span>Adam Stein</span>
+                    <span>Emily J Getzen</span>
+                    <span>Qi Long</span>
+                    <span>Mayur Naik</span>
+                    <span>Ravi B Parikh</span>
+                    <span>...</span>
+                  </div>
+                  <div>
+                    <strong>🏆 NIH L3C Honorable Mention Award</strong>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.cis.upenn.edu/~mhnaik/papers/ebiomedicine24.pdf">Paper</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">DISCRET: Synthesizing Faithful Explanations For Treatment Effect Estimation</strong>
+                    <span class="conference">ICML 2024</span>
+                  </div>
+                  <div class="authors">
+                    <span>Yinjun Wu</span>
+                    <span>Mayank Keoliya</span>
+                    <span>Kan Chen</span>
+                    <span>Neelay Velingker</span>
+                    <span class="me">Ziyang Li</span>
+                    <span>Emily J Getzen</span>
+                    <span>Qi Long</span>
+                    <span>Mayur Naik</span>
+                    <span>Ravi B Parikh</span>
+                    <span>Eric Wong</span>
+                  </div>
+                  <div>
+                    <strong>🏆 Spotlight</strong>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/abs/2406.00611">ArXiv</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="publication-section">
+              <h6>Other Neurosymbolic Applications:</h6>
+              <ul class="publications list-group">
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Data-Efficient Learning with Neural Programs</strong>
+                    <span class="conference">NeurIPS 2024</span>
+                  </div>
+                  <div class="authors">
+                    <span>Alaia Solko-Breslin</span>
+                    <span>Seewon Choi</span>
+                    <span class="me">Ziyang Li</span>
+                    <span>Neelay Velingker</span>
+                    <span>Rajeev Alur</span>
+                    <span>Mayur Naik</span>
+                    <span>Eric Wong</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/abs/2406.06246">ArXiv</a>
+                  </div>
+                </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Towards Faithful and High-Fiedlity Synthesis of Driving Scene Videos</strong>
+                    <span class="conference">Preprint</span>
+                  </div>
+                  <div class="authors">
+                    <span>Jiani Huang</span>
+                    <span>Siyang Zhang</span>
+                    <span class="me">Ziyang Li</span>
+                    <span>Ser-Nam Lim</span>
+                    <span>Mayur Naik</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="section">
+          <div id="talks-tutorials" class="section">
             <div class="section-header">
               <h2>Talks and Tutorials</h2>
             </div>
-            <ul class="talks list-group list-group">
+            <ul class="talks list-group">
               <li class="talk list-group-item list-group-item-action">
-                <strong>Oct 11, 2024</strong>
+                <strong class="date">Oct 11, 2024</strong>
                 Invited talk on Scallop and Neurosymbolic Programming @ Columbia University
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Oct 4, 2024</strong>
+                <strong class="date">Oct 4, 2024</strong>
                 Invited talk on Scallop and Neurosymbolic Programming @ <a target="_blank" href="https://www.tacps.org">TACPS workshop, ESWEEK'24</a>
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Sep 26, 2024</strong>
+                <strong class="date">Sep 26, 2024</strong>
                 Invited talk on Scallop and Neurosymbolic Programming @ UT Austin
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Jun 10-11, 2024</strong>
+                <strong class="date">Jun 10-11, 2024</strong>
                 Scallop tutorial @ <a target="_blank" href="https://www.neurosymbolic.org/summerschool2024.html">Summer School of Neurosymbolic Programming</a>
                 <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.scallop-lang.org/ssnp24/index.html">Tutorial</a>
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Apr 17, 2024</strong>
+                <strong class="date">Apr 17, 2024</strong>
                 Guest lecture on Neurosymbolic Programming in CIS 7000, Spring 2024
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Dec 10, 2023</strong>
+                <strong class="date">Dec 10, 2023</strong>
                 Invited talk on Scallop and Neurosymbolic Programming @ Peking University PL Seminar
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Nov 9, 2023</strong>
+                <strong class="date">Nov 9, 2023</strong>
                 Invited talk on Scallop and Neurosymbolic Programming @ Purdue University
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Aug 7, 2023</strong>
+                <strong class="date">Aug 7, 2023</strong>
                 Invited talk on Scallop @ KDD'23
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Jun 17-19, 2023</strong>
+                <strong class="date">Jun 17-19, 2023</strong>
                 Tutorial and Talk on Scallop and Neurosymbolic Programming @ PLDI'23
                 <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.scallop-lang.org/pldi23/index.html">Tutorial</a>
+                <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.scallop-lang.org/ssft22/index.html">Slides</a>
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Apr 10, 2023</strong>
+                <strong class="date">Apr 10, 2023</strong>
                 Invited talk on Scallop and Neurosymbolic Programming @ MIT Neurosymbolic Reading Group
               </li>
               <li class="talk list-group-item list-group-item-action">
-                <strong>Jun 1-2, 2022</strong>
-                Tutorial on Scallop and Neurosymbolic Programming in <a target="_blank" href="https://fm.csl.sri.com/SSFT22/">Summer School of Formal Techniques'22</a>
+                <strong class="date">Jun 1-2, 2022</strong>
+                Tutorial on Scallop @ <a target="_blank" href="https://fm.csl.sri.com/SSFT22/">Summer School of Formal Techniques'22</a>
                 <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.scallop-lang.org/ssft22/index.html">Tutorial</a>
+                <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.scallop-lang.org/ssft22/index.html">Slides</a>
               </li>
             </ul>
           </div>
-          <div class="section">
+          <div id="awards-fellowships" class="section">
             <div class="section-header">
               <h2>Awards and Fellowships</h2>
             </div>
+            <ul>
+              <li>AWS Fellows - <i>05/2023</i></li>
+              <li>KPCB Fellows, Engineering - <i>06/2018 - 09/2018</i></li>
+            </ul>
           </div>
-          <div class="section">
+          <div id="teaching-services" class="section">
             <div class="section-header">
-              <h2>Teaching and Mentoring</h2>
+              <h2>Teaching, Services, and Mentoring</h2>
             </div>
+            <h6>Teaching:</h6>
+            <ul>
+              <li>Teaching Assistant, CIS 7000, Large Language Models - <i>UPenn, Fall 2024</i></li>
+              <li>Teaching Assistant, CIS 5470, Software Analysis - <i>UPenn, Fall 2020, Fall 2021, Summer 2022, Fall 2022, Fall 2023</i></li>
+              <li>Tutor, CSE 190, Virtual Reality Technology - <i>UCSD, Spring 2019</i></li>
+              <li>Tutor, CSE 165, 3D User Interaction - <i>UCSD, Winter 2019</i></li>
+              <li>Tutor, CSE 130, Programming Language - <i>UCSD, Fall 2018</i></li>
+              <li>Tutor, CSE 163, Advanced Computer Graphics - <i>UCSD, Spring 2018</i></li>
+              <li>Tutor, CSE 167, Intro to Computer Graphics - <i>UCSD, Winter 2018</i></li>
+              <li>Tutor, CSE 12, Data Structure - <i>UCSD, Winter 2017</i></li>
+            </ul>
+            <h6>Professional Services:</h6>
+            <ul>
+              <li>Reviewer, NeurIPS <i>2024</i></li>
+              <li>Reviewer, ICLR - <i>2023, 2024, 2025</i></li>
+              <li>Reviewer, ICML - <i>2024</i></li>
+              <li>Reviewer, ARR - <i>2023 Nov, 2024 Feb, May, Aug, Nov</i></li>
+            </ul>
+            <h6>Past Mentees:</h6>
+            <ul>
+              <li><a target="_blank" href="https://scholar.google.com/citations?user=XGGweFAAAAAJ&hl=en">Jason Liu</a></li>
+              <li><a target="_blank" href="#">Felix Zhu</a></li>
+              <li><a target="_blank" href="#">Eric Zhao</a></li>
+              <li><a target="_blank" href="#">William Dodds</a></li>
+              <li><a target="_blank" href="#">Eric Liu</a></li>
+              <li><a target="_blank" href="#">Nathan Zhang</a></li>
+            </ul>
           </div>
-          <div class="section">
+          <div id="work" class="section">
             <div class="section-header">
               <h2>Work</h2>
             </div>
+            <ul>
+              <li>Summer Research Intern - <i>RelationalAI, 05/2021 - 08/2021</i></li>
+              <li>Summer Research Intern - <i>Visa Research, 05/2020 - 07/2020</i></li>
+              <li>Front-end Engineer Intern - <i>Coursera, 06/2018 - 09/2018</i></li>
+              <li>Undergraduate Research Intern - <i>UCSD Design Lab, 06/2017 - 06/2018</i></li>
+            </ul>
           </div>
         </div>
       </div>
     </main>
+    <div class="footer">
+      &copy; Ziyang Li 2024 ⋅ All rights reserved ⋅ Last Update: Oct 30, 2024
+    </div>
     <script src="js/vendor/popper/popper.min.js"></script>
     <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
     <script>

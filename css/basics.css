@@ -1,3 +1,15 @@
+* {
+  --primary: 255,111,111;
+  --primary-dark: 200,80,80;
+  --bs-link-color-rgb: var(--primary) !important;
+  --bs-link-hover-color-rgb: var(--primary-dark) !important;
+  --bs-btn-active-bg: RGBA(var(--primary)) !important;
+  --bs-btn-color: RGBA(var(--primary)) !important;
+  --bs-btn-border-color: RGBA(var(--primary)) !important;
+  --bs-btn-hover-bg: RGBA(var(--primary)) !important;
+  --bs-btn-hover-border-color: RGBA(var(--primary)) !important;
+}
+
 .nav {
   line-height: 54px;
   height: 54px;
@@ -56,6 +68,52 @@
 
 }
 
+.publications {
+  list-style-type: circle;
+}
+
+.publication-section {
+  padding-top: 10px;
+}
+
+.publication.list-group-item {
+  border: none;
+}
+
+.publication {
+  padding-left: 25px !important;
+}
+
+.publication .header::before {
+  content: " ⋅ ";
+  position: absolute;
+  margin-left: -15px;
+  font-weight: bold;
+}
+
+.publication .conference::before {
+  content: " ⋅ ";
+  color: rgba(150, 150, 150, 1);
+}
+
+.publication .authors span {
+  font-style: italic;
+  color: rgba(150, 150, 150, 1);
+}
+
+.publication .authors span:not(:last-child)::after {
+  content: ",";
+}
+
+.publication .authors .me {
+  text-decoration: underline;
+  color: rgba(88, 88, 88, 1);
+}
+
+.publication .authors .co {
+  text-decoration: underline;
+}
+
 .talks {
   list-style: disc !important;
   list-style-type: disc !important;
@@ -65,10 +123,6 @@
   padding-top: 2px !important;
   padding-bottom: 2px !important;
   border: none !important;
-}
-
-.tag {
-
 }
 
 .btn-tiny {
@@ -99,4 +153,18 @@
 
 .sidebar-icon + .sidebar-icon {
   margin-left: 10px;
+}
+
+.talk .date {
+  display: inline-block;
+  width: 132px;
+}
+
+.footer {
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  color: grey;
 }
