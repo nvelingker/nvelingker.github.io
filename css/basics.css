@@ -1,0 +1,170 @@
+* {
+  --primary: 255,111,111;
+  --primary-dark: 200,80,80;
+  --bs-link-color-rgb: var(--primary) !important;
+  --bs-link-hover-color-rgb: var(--primary-dark) !important;
+  --bs-btn-active-bg: RGBA(var(--primary)) !important;
+  --bs-btn-color: RGBA(var(--primary)) !important;
+  --bs-btn-border-color: RGBA(var(--primary)) !important;
+  --bs-btn-hover-bg: RGBA(var(--primary)) !important;
+  --bs-btn-hover-border-color: RGBA(var(--primary)) !important;
+}
+
+.nav {
+  line-height: 54px;
+  height: 54px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+}
+
+.nav-img {
+  border-radius: 50%;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+.main-container {
+  /* max-width: 1024px !important; */
+}
+
+.sidebar, .main {
+  padding-top: 15px;
+}
+
+.sidebar > div {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+
+.sidebar-me {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  /* padding-bottom: 100%; */
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+.section .section-header {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.news-item .date {
+
+}
+
+.publications {
+  list-style-type: circle;
+}
+
+.publication-section {
+  padding-top: 10px;
+}
+
+.publication.list-group-item {
+  border: none;
+}
+
+.publication {
+  padding-left: 25px !important;
+}
+
+.publication .header::before {
+  content: " ⋅ ";
+  position: absolute;
+  margin-left: -15px;
+  font-weight: bold;
+}
+
+.publication .conference::before {
+  content: " ⋅ ";
+  color: rgba(150, 150, 150, 1);
+}
+
+.publication .authors span {
+  font-style: italic;
+  color: rgba(150, 150, 150, 1);
+}
+
+.publication .authors span:not(:last-child)::after {
+  content: ",";
+}
+
+.publication .authors .me {
+  text-decoration: underline;
+  color: rgba(88, 88, 88, 1);
+}
+
+.publication .authors .co {
+  text-decoration: underline;
+}
+
+.talks {
+  list-style: disc !important;
+  list-style-type: disc !important;
+}
+
+.talk {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  border: none !important;
+}
+
+.btn-tiny {
+  line-height: 18px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 20px;
+  margin-top: -4px;
+}
+
+.sidebar-item {
+  margin-top: 5px;
+}
+
+.sidebar-item .icon {
+  display: inline-block;
+  width: 25px;
+}
+
+.sidebar-icon {
+  font-size: 28px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sidebar-icon + .sidebar-icon {
+  margin-left: 10px;
+}
+
+.talk .date {
+  display: inline-block;
+  width: 132px;
+}
+
+.footer {
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  color: grey;
+}
