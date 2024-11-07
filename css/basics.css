@@ -1,6 +1,6 @@
 * {
-  --primary: 255,111,111;
-  --primary-dark: 200,80,80;
+  --primary: 111,111,255;
+  --primary-dark: 80,80,200;
   --bs-link-color-rgb: var(--primary) !important;
   --bs-link-hover-color-rgb: var(--primary-dark) !important;
   --bs-btn-active-bg: RGBA(var(--primary)) !important;
