@@ -61,7 +61,7 @@
               <i class="fa fa-university icon"></i> <a href="https://www.cis.upenn.edu" target="_blank">Computer and Information Science</a>
             </div>
             <div class="sidebar-item">
-              <i class="fa fa-graduation-cap icon"></i> <a href="res/cv/cv-02-18-2025.pdf" target="_blank">Curriculum Vitae</a>
+              <i class="fa fa-graduation-cap icon"></i> <a href="res/cv/Neelay_Velingker_CV_Oct25.pdf" target="_blank">Curriculum Vitae</a>
             </div>
             <div class="sidebar-item">
               Education:
@@ -79,8 +79,8 @@
             </div> -->
             <p>
               I am a Ph.D. student at the <a target="_blank" href="https://upenn.edu">University of Pennsylvania</a>, advised by <a target="_blank" href="https://www.cis.upenn.edu/~mhnaik/">Prof. Mayur Naik</a>.
-              I am interested in studying how to make foundation models more accessible and trustworthy, especially in the real world.
-              To this end, my research primarily focuses on the intersection of Efficient Deep Learning and Neurosymbolic AI.
+              I am interested in studying how to make artificial intelligence more accessible and reliable, especially in the real world.
+              To this end, my research primarily focuses on foundation models for program synthesis, neurosymbolic reasoning, and multimodal learning.
 
               <!-- He is awarded the <a target="_blank" href="https://blog.seas.upenn.edu/amazon-provides-gift-to-10-penn-engineering-phd-students-for-work-on-trustworthy-ai/">AWS Fellowship</a> for conducting research on trustworthy AI. -->
             </p>
@@ -94,10 +94,13 @@
             </div>
             <ul>
               <li class="news-item">
+                Our papers <a href="#publication-once-upon-input">Once Upon an Input</a> and <a href="#publication-esca">ESCA</a> (<strong>Spotlight</strong>) have been accepted to NeurIPS 2025.
+              </li>
+              <li class="news-item">
                 I have been awarded the AWS Fellowship for Trustworthy AI.
               </li>
               <li class="news-item">
-                Our paper <a target="_blank" href="https://icml.cc/virtual/2024/poster/34742">DISCRET: Synthesizing Faithful Explanations For Treatment Effect Estimation</a> was awarded a spotlight at ICML 2024.
+                Our paper <a href="#publication-discret">DISCRET: Synthesizing Faithful Explanations For Treatment Effect Estimation</a> was awarded a spotlight at ICML 2024.
               </li>
             </ul>
           </div>
@@ -106,22 +109,42 @@
               <h2>Publications</h2>
             </div>
             <div class="publication-section">
-              <h6>Neurosymbolic AI</h6>
+              <h6>Peer-Reviewed Publications</h6>
               <ul class="publications list-group">
-                <li class="publication list-group-item list-group-item-action">
+                <li id="publication-once-upon-input" class="publication list-group-item list-group-item-action">
                   <div class="header">
-                    <strong class="title">Neuro-Symbolic Programming in the Age of Foundation Models: Pitfalls and Opportunities</strong>
-                    <span class="conference">Pre-Print</span>
+                    <strong class="title">Once Upon an Input: Reasoning via Per-Instance Program Synthesis</strong>
+                    <span class="conference">NeurIPS 2025</span>
                   </div>
                   <div class="authors">
-                    <span>Adam Stein</span>
-                    <span>Aaditya Naik</span>
-                    <span class="me">Neelay Velingker</span>
+                    <span class="me">Neelay Velingker*</span>
+                    <span>Adam Stein*</span>
                     <span>Mayur Naik</span>
                     <span>Eric Wong</span>
                   </div>
                   <div>
-                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="res/papers/neurosymbolic_pitfalls_and_opportunities.pdf">Pre-Print</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="res/papers/pips_neurips25.pdf">Paper</a>
+                  </div>
+                </li>
+                <li id="publication-esca" class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">ESCA: Contextualizing Embodied Agents via Scene-Graph Generation</strong>
+                    <span class="conference">NeurIPS 2025</span>
+                  </div>
+                  <div class="authors">
+                    <span>Jiani Huang</span>
+                    <span>Mayank Keoliya</span>
+                    <span>Matthew Kuo</span>
+                    <span class="me">Neelay Velingker</span>
+                    <span>Amish Sethi</span>
+                    <span>JungHo Jung</span>
+                    <span>Ziyang Li</span>
+                    <span>Ser-Nam Lim</span>
+                    <span>Mayur Naik</span>
+                  </div>
+                  <div>
+                    <strong>🏆 Spotlight</strong>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="res/papers/ESCA_neurips25.pdf">Paper</a>
                   </div>
                 </li>
                 <li class="publication list-group-item list-group-item-action">
@@ -142,32 +165,6 @@
                     <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/abs/2406.06246">ArXiv</a>
                   </div>
                 </li>
-                <li class="publication list-group-item list-group-item-action">
-                  <div class="header">
-                    <strong class="title">Relational Programming with Foundation Models</strong>
-                    <span class="conference">AAAI 2024</span>
-                  </div>
-                  <div class="authors">
-                    <span>Ziyang Li</span>
-                    <span>Jiani Huang</span>
-                    <span>Jason Liu</span>
-                    <span>Felix Zhu</span>
-                    <span>Eric Zhao</span>
-                    <span>William Dodds</span>
-                    <span class="me">Neelay Velingker</span>
-                    <span>Rajeev Alur</span>
-                    <span>Mayur Naik</span>
-                  </div>
-                  <div>
-                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/pdf/2412.14515">Paper</a>
-                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://github.com/scallop-lang/scallop/tree/master/etc/scallopy-plugins">Plugin Library</a>
-                  </div>
-                </li> 
-              </ul>
-            </div>
-            <div class="publication-section">
-              <h6>Health and Bioinformatics:</h6>
-              <ul class="publications list-group">  
                 <li class="publication list-group-item list-group-item-action">
                   <div class="header">
                     <strong class="title">Crowd-sourced machine learning prediction of Long COVID using data from the National COVID Cohort Collaborative</strong>
@@ -192,7 +189,7 @@
                     <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://www.cis.upenn.edu/~mhnaik/papers/ebiomedicine24.pdf">Paper</a>
                   </div>
                 </li>
-                <li class="publication list-group-item list-group-item-action">
+                <li id="publication-discret" class="publication list-group-item list-group-item-action">
                   <div class="header">
                     <strong class="title">DISCRET: Synthesizing Faithful Explanations For Treatment Effect Estimation</strong>
                     <span class="conference">ICML 2024</span>
@@ -215,11 +212,48 @@
                     <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://github.com/wuyinjun-1993/DISCRET-ICML2024">Code</a>
                   </div>
                 </li>
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Relational Programming with Foundation Models</strong>
+                    <span class="conference">AAAI 2024</span>
+                  </div>
+                  <div class="authors">
+                    <span>Ziyang Li</span>
+                    <span>Jiani Huang</span>
+                    <span>Jason Liu</span>
+                    <span>Felix Zhu</span>
+                    <span>Eric Zhao</span>
+                    <span>William Dodds</span>
+                    <span class="me">Neelay Velingker</span>
+                    <span>Rajeev Alur</span>
+                    <span>Mayur Naik</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://arxiv.org/pdf/2412.14515">Paper</a>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="https://github.com/scallop-lang/scallop/tree/master/etc/scallopy-plugins">Plugin Library</a>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="publication-section">
-              <h6>Efficient Deep Learning</h6>
+              <h6>Preprints</h6>
               <ul class="publications list-group">
+                <li class="publication list-group-item list-group-item-action">
+                  <div class="header">
+                    <strong class="title">Neuro-Symbolic Programming in the Age of Foundation Models: Pitfalls and Opportunities</strong>
+                    <span class="conference">Pre-Print</span>
+                  </div>
+                  <div class="authors">
+                    <span>Adam Stein</span>
+                    <span>Aaditya Naik</span>
+                    <span class="me">Neelay Velingker</span>
+                    <span>Mayur Naik</span>
+                    <span>Eric Wong</span>
+                  </div>
+                  <div>
+                    <a class="btn btn-sm btn-tiny btn-outline-primary" target="_blank" href="res/papers/neurosymbolic_pitfalls_and_opportunities.pdf">Pre-Print</a>
+                  </div>
+                </li>
                 <li class="publication list-group-item list-group-item-action">
                   <div class="header">
                     <strong class="title">CLAM: Unifying Finetuning, Quantization, and Pruning by Chaining LLM Adapter Modules</strong>
@@ -344,7 +378,7 @@
     <div class="footer">
       Template created by my brilliant colleague <a href="https://liby99.github.io/">Ziyang Li</a>.
       <br>
-      &copy; Neelay Velingker 2024 ⋅ All rights reserved ⋅ Last Update: Nov 7th, 2024
+      &copy; Neelay Velingker 2025 ⋅ All rights reserved ⋅ Last Update: Oct 2nd, 2025
     </div>
     <script src="js/vendor/popper/popper.min.js"></script>
     <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
